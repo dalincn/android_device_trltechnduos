@@ -17,7 +17,7 @@
 # inherit from common trlte
 -include device/samsung/trlte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := trltechn
+TARGET_OTA_ASSERT_DEVICE := trltechn,trltechnduos
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_trlte_chnzn_defconfig
